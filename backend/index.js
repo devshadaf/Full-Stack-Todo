@@ -2,8 +2,8 @@ import dotenv from "dotenv";
 dotenv.config()
 
 import express from "express"
-import dbConnect from "./config/dbConnect.js";
-import route from "./routes/auth.route.js";
+import dbConnect from "src/config/dbConnect.js";
+import route from "src/routes/route.js";
 import cookieParser from "cookie-parser";
 
 const app=express()
